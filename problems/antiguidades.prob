@@ -1,0 +1,29 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: evandro, fabricio, pedro, marcel, yuri
+idade: '33aa', '35aa', '39aa', '41aa', '44aa'
+inicio: '12aa', '15aa', '20aa', '22aa', '25aa'
+coleciona: armas, brinquedos, esculturas, latas, relogios
+esporte: futebol, natacao, basquete, volei, tenis
+
+'12aa' = 4
+verde = '15aa'
+branca = 1 or branca = 5
+volei = '25aa'
+azul = 3
+yuri = 1 or yuri = 5
+'39aa' = '15aa'
+basquete = 5
+verde > branca
+|brinquedos - azul| = 1
+futebol = 1
+vermelha = tenis
+|'39aa' - armas| = 1
+natacao + 1 = '44aa'
+'20aa' = 1
+relogios = 1 or relogios = 5
+'35aa' = '22aa'
+amarela < fabricio
+evandro = 3
+'33aa' - 1 = latas
+branca = esculturas
+marcel = 1

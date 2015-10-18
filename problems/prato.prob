@@ -1,0 +1,30 @@
+camisa: amarela, azul, branco, verde, vermelha
+prato: milanesa, parmegiana, calabresa, frango, paulista
+suco: laranja, limao, maca, maracuja, uva
+idade: '22a', '25a', '28a', '33a', '38a'
+profissao: contador, engenheiro, gerente, porteiro, publicitario
+esporte: corrida, futebol, sinuca, natacao, volei
+
+|gerente - '28a'| = 1
+'25a' - 1 = parmegiana
+milanesa = 3
+maca = futebol
+contador = azul
+maracuja = volei
+gerente = 1
+futebol + 1 = natacao
+|calabresa - natacao| = 1
+engenheiro > amarela
+'38a' = 1 or '38a' = 5
+|corrida - maracuja| = 1
+amarela < frango
+|'33a' - limao| = 1
+contador = 4
+engenheiro = natacao
+vermelha < limao
+publicitario - 1 = contador
+branco = 1 or branco = 5
+uva = 1
+'33a' = 4
+verde = limao
+laranja + 1 = parmegiana

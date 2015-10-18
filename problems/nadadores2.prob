@@ -1,0 +1,23 @@
+touca: amarela, azul, branca, verde
+pais: argentina, brasil, eua, franca
+especialidade: borboleta, costas, crawl, peito
+medalhas: '2medalhas', '3medalhas', '5medalhas', '8medalhas'
+peso: '70kg', '75kg', '80kg', '84kg'
+idade: '20anos', '22anos', '23anos', '24anos'
+
+'22anos' = 1 or '22anos' = 4
+'23anos' = 2
+|'24anos' - '75kg'| = 1
+'22anos' = '8medalhas'
+'84kg' = 2
+|'70kg' - amarela| = 1
+'5medalhas' = 3
+'2medalhas' = 1
+crawl = 4
+'24anos' = costas
+|peito - eua| = 1
+eua = 3
+argentina = 2
+branca = 3
+azul = 2
+|argentina - franca| = 1

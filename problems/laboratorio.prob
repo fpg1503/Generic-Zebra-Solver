@@ -1,0 +1,30 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: denis, joao, lenin, otavio, will
+mes: agosto, dezembro, janeiro, maio, setembro
+jogo: '3oumais', cacapalavras, cubovermelho, forca, logica
+materia: biologia, geografia, historia, matematica, portugues
+suco: laranja, limao, maracuja, morango, uva
+
+|setembro - laranja| = 1
+joao = historia
+azul < maio
+|will - logica| = 1
+branca + 1 = will
+morango = 3
+uva = logica
+|forca - '3oumais'| = 1
+uva > azul
+cubovermelho = 1 or cubovermelho = 5
+|forca - vermelha| = 1
+biologia = morango
+|janeiro - setembro| = 1
+uva + 1 = portugues
+matematica = dezembro
+|logica - amarela| = 1
+azul = janeiro
+|setembro - cubovermelho| = 1
+limao = 1
+matematica = maracuja
+lenin = 5
+otavio = 1 or otavio = 5
+forca = 3

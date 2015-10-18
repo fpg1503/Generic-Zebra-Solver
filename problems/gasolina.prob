@@ -1,0 +1,41 @@
+cor: amarelo, verde, branco, azul, vermelho
+motorista: anderson, fred, gustavo, lucas, vitor
+tipo: crossover, hatch, pickup, sedan, suv
+km: '10m', '20m', '30m', '40m', '50m'
+valor: '50r', '60r', '70r', '80r', '90r'
+montadora: alema, chinesa, francesa, italiana, japonesa
+
+'80r' > fred
+'80r' < '50r'
+|'50r' - '60r'| = 1
+anderson = 5
+vermelho + 1 = '30m'
+italiana = 1 or italiana = 5
+'40m' > '90r'
+'40m' < chinesa
+sedan + 1 = '50m'
+gustavo = 4
+amarelo > branco
+amarelo < italiana
+|suv - '40m'| = 1
+japonesa = 4
+|crossover - '30m'| = 1
+amarelo > alema
+amarelo < '70r'
+|'40m' - '50r'| = 1
+suv = '50r'
+francesa > alema
+francesa < chinesa
+|gustavo - suv| = 1
+'70r' = 1 or '70r' = 5
+amarelo > pickup
+amarelo < chinesa
+4 = '20m'
+alema = 1 or alema = 5
+'50r' > fred
+'50r' < '60r'
+|sedan - '10m'| = 1
+vermelho - 1 = verde
+vitor > alema
+vitor < lucas
+'30m' = 5

@@ -1,0 +1,6 @@
+cor: azul, vermelha, preta
+nacionalidade: alemao, espanhol, italiano
+
+espanhol = vermelha + 1
+alemao = azul
+italiano = 2

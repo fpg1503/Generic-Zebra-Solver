@@ -1,0 +1,31 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: carlos, fernando, mario, pedro, victor
+livro: '1984l', clube_da_luta, dia_do_curinga, laranja_mecanica, tubarao
+autor: agatha_christie, clarice_lispector, frans_kafta, machado_de_assis, paulo_coelho
+profissao: eletricista, garcom, musico, professor, vendedor
+lugar: biblioteca, jardim, onibus, quarto, sala
+
+jardim = 4
+biblioteca = 3
+quarto = 5
+musico = onibus
+vermelha < professor
+garcom > azul
+eletricista = agatha_christie
+laranja_mecanica = clarice_lispector
+machado_de_assis + 1 = professor
+carlos = vendedor
+|vendedor - sala| = 1
+frans_kafta = 1
+|mario - '1984l'| = 1
+azul < laranja_mecanica
+sala + 1 = dia_do_curinga
+clube_da_luta = 2
+victor = 2
+fernando = jardim
+machado_de_assis = '1984l'
+|azul - fernando| = 1
+|vermelha - quarto| = 1
+branca = 1 or branca = 5
+eletricista = verde
+branca - 1 = '1984l'

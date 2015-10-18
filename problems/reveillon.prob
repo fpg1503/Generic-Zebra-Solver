@@ -1,0 +1,29 @@
+vestido: amarelo, azul, branco, verde, vermelho
+nome: bruna, camila, gabriela, marina, vanessa
+bebida: agua, cerveja, champagne, suco, vinho
+idade: '23a', '24a', '25a', '26a', '27a'
+desejo: carro, casa, casar, viajar, emagrecer
+profissao: arquiteta, dentista, designer, jornalista, psicologa
+
+arquiteta > designer
+arquiteta < jornalista
+dentista + 1 = arquiteta
+jornalista = 5
+'26a' + 1 = designer
+casar - 1 = carro
+casar = 4
+branco + 1 = casa
+|emagrecer - '24a'| = 1
+'25a' - 1 = '27a'
+'23a' > gabriela
+'23a' < '27a'
+vanessa + 1 = vinho
+agua = 3
+|champagne - verde| = 1
+amarelo > suco
+amarelo < vermelho
+azul < marina
+camila < casa
+'25a' = verde
+|gabriela - azul| = 1
+vermelho = '27a'

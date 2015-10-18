@@ -1,0 +1,32 @@
+nome: adriana, carolina, daniela, mariana, patricia
+bolsa: amarela, azul, branca, verde, vermelha
+gastar: '50r', '75r', '100r', '200r', '300r'
+pai: andre, carlos, fabio, joao, paulo
+presente: calca_jeans, camisa, carteira, gravata, perfume
+time: corinthians, palmeiras, portuguesa, santos, sao_paulo
+
+corinthians = 4
+carlos = 2
+'50r' = 1 or '50r' = 5
+verde + 1 = carteira
+paulo = santos
+'300r' = 1 or '300r' = 5
+|carolina - palmeiras| = 1
+joao = palmeiras
+portuguesa > branca
+portuguesa < palmeiras
+'200r' + 1 = '300r'
+fabio = 4
+vermelha > andre
+vermelha < amarela
+|calca_jeans - perfume| = 1
+daniela = gravata
+azul = 2
+'100r' > camisa
+'100r' < '200r'
+adriana < santos
+verde = '100r'
+patricia < perfume
+portuguesa = '75r'
+adriana = '100r' or adriana = '75r'
+patricia - 1 = mariana

@@ -1,0 +1,30 @@
+chamine: amarela, azul, branca, verde, vermelha
+nacionalidade: alemao, brasileiro, espanhol, frances, italiano
+saida: '5h', '6h', '7h', '8h', '9h'
+carregamento: arroz, cacau, cafe, cha, milho
+destino: hamburgo, macau, manila, santos, rotterdam
+capitao: dexter, kramer, newman, ted, mr_white
+
+verde < kramer
+|manila - mr_white| = 1
+vermelha < dexter
+ted = 1
+rotterdam = 1 or rotterdam = 5
+|newman - macau| = 1
+mr_white = verde - 1
+manila > branca
+manila < milho
+santos = newman - 1
+cacau > verde
+|verde - milho| = 1
+arroz = verde
+cafe < vermelha
+vermelha < '8h'
+'5h' > verde
+amarela < '8h'
+vermelha < '6h'
+vermelha > '9h'
+|espanhol - cacau| = 1
+amarela < frances
+vermelha < brasileiro
+santos = italiano - 1

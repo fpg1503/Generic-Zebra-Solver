@@ -1,0 +1,31 @@
+camisa: amarela, azul, branca, verde, vermelha
+nome: alan, cleber, luis, milton, vinicius
+idade: '27a', '29a', '32a', '33a', '35a'
+constelacao: andromeda, aries, escorpiao, orion, pegasus
+altura: '166cm', '170cm', '172cm', '175cm', '181cm'
+esporte: basquete, futebol, sinuca, natacao, volei
+
+vermelha = 2
+'29a' = 1 or '29a' = 5
+vermelha > natacao
+vermelha < '35a'
+'32a' = basquete
+|volei - '166cm'| = 1
+milton > branca
+'170cm' = andromeda
+|futebol - basquete| = 1
+pegasus > cleber
+pegasus < branca
+luis = branca
+natacao + 1 = '27a'
+'181cm' = volei
+alan = 1 or alan = 5
+|escorpiao - '172cm'| = 1
+amarela = orion
+'170cm' - 1 = '29a'
+cleber = futebol
+sinuca = 5
+'33a' = '166cm'
+verde > '29a'
+verde < escorpiao
+'166cm' = aries

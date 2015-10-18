@@ -1,0 +1,29 @@
+mala: amarela, azul, branca, verde, vermelha
+gentilico: baiano, gaucho, fluminense, mineiro, paulista
+destino: australia, franca, italia, inglaterra, japao
+horario: '8h', '9h', '10h', '11h', '12h'
+finalidade: congresso, estudos, intercambio, negocios, turismo
+esqueceu: agenda, celular, notebook, oculos, terno
+
+terno = 5
+inglaterra = agenda
+branca < notebook
+turismo + 1 = celular
+congresso = 1 or congresso = 5
+estudos > verde
+negocios - 1 = intercambio
+'8h' = 4
+baiano - 1 = celular
+paulista = franca
+japao = 1 or japao = 5
+turismo = 1 or turismo = 5
+|'9h' - gaucho| = 1
+|verde - mineiro| = 1
+japao = '9h'
+|amarela - notebook| = 1
+branca = 2
+'11h' > verde
+branca < '10h'
+'9h' = 1 or '9h' = 5
+|australia - '11h'| = 1
+vermelha = 1

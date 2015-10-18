@@ -1,0 +1,24 @@
+maio: amarelo, azul, branco, verde
+nome: ana, bruna, raquel, vivian
+idade: i8, i9, i10, i11
+suco: laranja, limao, maracuja, morango
+protetor: fps40, fps45, fps50, fps55
+animal: cachorro, gato, passaro, peixe
+
+3 = cachorro
+peixe = 1 or peixe = 4
+gato = 1
+ana = fps50
+2 = fps55
+|fps40 - i8| = 1
+morango = 4
+|maracuja - passaro| = 1
+|limao - maracuja| = 1
+laranja = 1 or laranja = 4
+azul < i9
+i8 = 4
+i11 = 1 or i11 = 4
+vivian = passaro
+raquel = 1
+verde = 4
+branco = 1 or branco = 4

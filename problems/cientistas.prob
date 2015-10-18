@@ -1,0 +1,30 @@
+detalhes: amarelo, azul, branco, vermelho, verde
+bloco: gauss, newton, pascal, tesla, watt
+arquiteto: alberto, eduardo, fabio, sergio, willian
+idade: '45a', '47a', '50a', '51a', '56a'
+vendido: '50p', '60p', '70p', '80p', '90p'
+tem: academia, churrasqueira, piscina, salao_de_festa, salao_de_jogos
+
+salao_de_festa = 1 or salao_de_festa = 5
+|academia - '50p'| = 1
+|'45a' - piscina| = 1
+piscina = '70p'
+'56a' + 1 = '45a'
+|'50a' - '70p'| = 1
+|watt - churrasqueira| = 1
+'90p' + 1 = watt
+'51a' = 1 or '51a' = 5
+fabio = branco
+|azul - piscina| = 1
+|newton - sergio| = 1
+willian = 5
+tesla = 3
+'50p' = 5
+tesla < pascal
+gauss > vermelho
+academia = '80p'
+churrasqueira = '47a'
+'56a' > azul
+branco + 1 = eduardo
+|amarelo - piscina| = 1
+gauss = 1 or gauss = 5

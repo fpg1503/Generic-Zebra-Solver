@@ -1,0 +1,31 @@
+bicicleta: amarela, azul, branca, verde, vermelha
+nome: amanda, carolina, flavia, gabriela, patricia
+signo: aquario, aries, cancer, escorpiao, libra
+materia: biologia, geografia, historia, matematica, portugues
+suco: banana, laranja, maracuja, morango, uva
+animal: borboletas, cachorro, gatos, passaros, tartarugas
+
+|amanda - historia| = 1
+gabriela = morango
+|passaros - banana| = 1
+azul + 1 = matematica
+matematica = cachorro
+biologia - 1 = morango
+historia = 2
+historia = cancer
+branca < tartarugas
+geografia + 1 = branca
+|uva - amarela| = 1
+aries = 3
+branca > gatos
+branca < vermelha
+libra = 5
+flavia + 1 = cancer
+patricia = maracuja
+banana - 1 = gabriela
+|tartarugas - escorpiao| = 1
+patricia - 1 = aries
+amarela < borboletas
+branca > gatos
+branca < amanda
+gabriela - 1 = laranja

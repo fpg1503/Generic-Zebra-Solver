@@ -1,0 +1,31 @@
+camisa: amarela, branca, vermelha, verde, azul
+nome: beatriz, ivone, julia, natasha, thais
+comida: biscoitos, frutas, panetones, peru, rabanada
+idade: '28a', '31a', '33a', '39a', '44a'
+signo: aries, cancer, libra, sagitario, touro
+suco: laranja, limao, maca, maracuja, uva
+
+|peru - panetones| = 1
+azul < libra
+thais = 1
+|amarela - uva| = 1
+'39a' = panetones
+natasha > vermelha
+touro = 5
+vermelha + 1 = laranja
+|uva - '44a'| = 1
+'28a' = 3
+biscoitos + 1 = vermelha
+|'31a' - '44a'| = 1
+ivone - 1 = biscoitos
+amarela < maracuja
+sagitario = 1 or sagitario = 5
+azul > '31a'
+azul < branca
+rabanada + 1 = amarela
+|amarela - '33a'| = 1
+biscoitos = limao
+beatriz - 1 = rabanada
+laranja + 1 = maracuja
+rabanada = 3
+aries = 3

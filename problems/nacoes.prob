@@ -1,0 +1,25 @@
+estande: amarelo, azul, branco, verde, vermelho
+representante: cassio, gabriel, helena, lais, sandro
+nacao: alemanha, espanha, italia, japao, portugal
+idade: '7a', '8a', '9a', '10a', '11a'
+professor: jucenir, marcio, marilena, rosa, rogerio
+
+amarelo < jucenir
+amarelo = cassio
+sandro = 5
+cassio = rogerio
+verde < rosa
+'10a' = marcio
+|alemanha - '9a'| = 1
+'7a' > branco
+'10a' - 1 = vermelho
+'8a' = 3
+portugal + 1 = espanha
+|branco - portugal| = 1
+|'9a' - jucenir| = 1
+japao < espanha
+branco = rosa
+sandro - 1 = cassio
+|amarelo - gabriel| = 1
+helena = 1 or helena = 5
+japao - 1 = italia

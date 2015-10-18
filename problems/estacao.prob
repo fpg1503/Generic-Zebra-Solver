@@ -1,0 +1,28 @@
+linha: amarela, azul, branca, verde, vermelha
+nome: alessandra, beatriz, joice, luisa, rosana
+parente: avo, filha, mae, sobrinha, tia
+profissao: arquiteta, economista, nutricionista, policial, tradutora
+signo: gemeos, escorpiao, leao, sagitario, touro
+comida: frango, macarrao, pizza, peixe, sopa
+
+azul = 2
+frango = 1 or frango = 5
+pizza = verde
+mae = 2
+escorpiao - 1 = verde
+arquiteta = 1
+beatriz + 1 = mae
+luisa = sopa
+gemeos = 2
+joice = tia
+sagitario = branca
+peixe + 1 = tia
+peixe = 2
+nutricionista > branca
+economista + 1 = macarrao
+amarela = 1
+alessandra = policial
+tradutora = tia
+verde < sobrinha
+leao = 4
+policial = avo

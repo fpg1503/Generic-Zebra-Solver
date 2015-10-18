@@ -1,0 +1,31 @@
+shorts: amarelo, azul, branco, verde, vermelho
+nome: cristiano, frederico, mario, marcus, roberto
+esposa: andrea, cristina, isabela, pamela, tatiana
+souvenir: artesanato, camiseta, chapeu, ima, postal
+atividade: danca, esqui, mergulho, pesca, surf
+profissao: advogado, corretor, gerente, jornalista, publicitario
+
+tatiana = 3
+|cristiano - pamela| = 1
+azul > verde
+mario + 1 = danca
+|publicitario - postal| = 1
+azul < pamela
+postal = 2
+|corretor - verde| = 1
+frederico + 1 = mergulho
+danca = 3
+|tatiana - isabela| = 1
+roberto = 1
+danca > azul
+chapeu - 1 = amarelo
+amarelo < jornalista
+esqui > cristina
+esqui < mergulho
+surf = 5
+azul < isabela
+|ima - danca| = 1
+publicitario + 1 = advogado
+vermelho < chapeu
+corretor > camiseta
+corretor < advogado

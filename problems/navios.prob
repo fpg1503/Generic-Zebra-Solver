@@ -1,0 +1,24 @@
+nacionalidade: brasileiro, espanhol, frances, grego, ingles
+saida: '5h', '6h', '7h', '8h', '9h'
+carregamento: arroz, cacau, cafe, cha, milho
+chamine: azul, branca, verde, vermelha, preta
+destino: hamburgo, macau, manila, santos, rotterdam
+
+grego = '6h'
+grego = cafe
+preta = 3
+ingles = '9h'
+frances = azul
+frances + 1 = cafe
+macau - 1 = cacau
+brasileiro = manila
+|arroz - verde| = 1
+santos = '5h'
+espanhol = '7h'
+espanhol - 1 = macau
+vermelha = hamburgo
+|branca - '7h'| = 1
+milho = 1 or milho = 5
+preta = '8h'
+|milho - arroz| = 1
+hamburgo = '6h'

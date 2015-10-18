@@ -1,0 +1,28 @@
+uniforme: amarelo, azul, branco, verde, vermelho
+equipe: '14biz', fenix, peraltas, supinos, tratores
+capitao: arthur, carlos, juliano, marcio, oscar
+strikes: '0s', '1s', '2s', '3s', '4s'
+idade: '23a', '24a', '25a', '26a', '27a'
+pontuacao: '380p', '390p', '400p', '410p', '420p'
+
+'4s' + 1 = '380p'
+oscar = '400p'
+'410p' = 2
+'26a' = '390p'
+'25a' = 3
+oscar - 1 = '23a'
+vermelho > '27a'
+vermelho < '4s'
+|fenix - '3s'| = 1
+|'1s' - '400p'| = 1
+'390p' - 1 = '3s'
+peraltas = '0s'
+juliano - 1 = oscar
+marcio = fenix
+carlos = 5
+|tratores - '2s'| = 1
+'1s' + 1 = '14biz'
+|verde - azul| = 1
+vermelho = '23a'
+branco + 1 = verde
+'390p' + 1 = azul

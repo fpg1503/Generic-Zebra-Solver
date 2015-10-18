@@ -1,0 +1,28 @@
+faixa: amarela, azul, branca, verde, vermelha
+nome: diego, emerson, felipe, milton, renato
+idade: '23a', '25a', '28a', '30a', '32a'
+peso: '75kg', '79kg', '81kg', '84kg', '87kg'
+altura: '175cm', '178cm', '180cm', '184cm', '187cm'
+estado: es, go, rj, rs, sp
+
+|'79kg' - es| = 1
+sp = 5
+vermelha - 1 = go
+rj = branca
+'175cm' = 5
+|emerson - '187cm'| = 1
+'184cm' = 3
+'178cm' = 1 or '178cm' = 5
+'81kg' = 1 or '81kg' = 5
+vermelha < '84kg'
+|go - rs| = 1
+azul = '87kg'
+'75kg' + 1 = '25a'
+'30a' + 1 = '175cm'
+'32a' = sp
+'28a' - 1 = go
+milton = amarela
+renato = '79kg'
+felipe = 2
+emerson > branca
+branca = 1

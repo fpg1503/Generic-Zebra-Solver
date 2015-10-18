@@ -1,0 +1,25 @@
+vestido: amarelo, azul, branco, verde, vermelho
+homem: antonio, caio, igor, mauricio, renan
+mulher: ana, claudia, denise, laura, monica
+conheceram: churrasco, faculdade, festa, praia, trabalho
+duracao: '1ano', '2anos', '3anos', '4anos', '5anos'
+presente: anel, bolsa, perfume, sandalia, vestido
+
+|'1ano' - bolsa| = 1
+branco = amarelo + 1
+perfume = 1
+praia = 1 or praia = 5
+monica > vermelho
+branco = mauricio - 1
+anel = 3
+|laura - verde| = 1
+renan = denise
+perfume = churrasco - 1
+bolsa > igor
+bolsa < vermelho
+antonio = monica
+'3anos' = 4
+'5anos' = festa
+renan = '4anos' - 1
+claudia = 2
+vestido = faculdade - 1

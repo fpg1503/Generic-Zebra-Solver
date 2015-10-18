@@ -1,0 +1,28 @@
+camisa: amarela, azul, branca, verde, vermelha
+conta: agua, aluguel, celular, luz, telefone
+nome: augusto, douglas, jose, ronaldo, samuel
+profissao: bombeiro, fotografo, massagista, pesquisador, veterinario
+animal: cachorro, gato, passaro, peixe, tartaruga
+esporte: basquete, futebol, sinuca, natacao, volei
+
+sinuca = 4
+futebol = 5
+basquete = 2
+volei = vermelha
+peixe + 1 = natacao
+branca = tartaruga
+bombeiro - 1 = samuel
+veterinario = 5
+pesquisador = 3
+douglas = fotografo
+jose = 5
+pesquisador + 1 = augusto
+douglas = cachorro
+telefone = 5
+agua = branca
+luz = 3
+ronaldo = celular
+verde = passaro
+azul = 1 or azul = 5
+gato - 1 = sinuca
+|passaro - sinuca| = 1

@@ -1,0 +1,31 @@
+vestido: amarelo, azul, branco, verde, vermelho
+nome: ana, flavia, jessica, larissa, tatiana
+idade: '27a', '28a', '29a', '30a', '31a'
+marido: daniel, gabriel, julio, leandro, renan
+profissao: bancaria, dentista, enfermeira, professora, programadora
+flores: gerberas, lirios, margaridas, rosas, tulipas
+
+ana = margaridas
+rosas = 5
+gerberas - 1 = lirios
+azul + 1 = enfermeira
+flavia + 1 = professora
+amarelo < programadora
+|bancaria - leandro| = 1
+julio = rosas
+|amarelo - leandro| = 1
+ana = renan
+amarelo > gabriel
+amarelo < gerberas
+'28a' = rosas
+'27a' - 1 = lirios
+'31a' = 4
+|verde - '29a'| = 1
+jessica + 1 = tatiana
+|gabriel - tatiana| = 1
+amarelo > dentista
+amarelo < '27a'
+jessica = 1 or jessica = 5
+|'31a' - verde| = 1
+gerberas + 1 = ana
+branco > vermelho

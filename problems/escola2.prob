@@ -1,0 +1,32 @@
+nome: aline, beatriz, isabelle, juliana, patricia
+mochila: amarela, azul, branca, verde, vermelha
+materia: artes, biologia, historia, matematica, portugues
+animal: cachorros, cavalos, gatos, hamsters, passaros
+lugar: florianopolis, manaus, recife, rio_de_janeiro, salvador
+suco: abacaxi, laranja, limao, maracuja, morango
+
+laranja = 1 or laranja = 5
+maracuja > cavalos
+maracuja < morango
+|limao - vermelha| = 1
+|isabelle - laranja| = 1
+hamsters = rio_de_janeiro
+aline + 1 = manaus
+florianopolis > aline
+recife = 1 or recife = 5
+biologia = rio_de_janeiro
+|gatos - branca| = 1
+passaros = 1 or passaros = 5
+|hamsters - cachorros| = 1
+|branca - passaros| = 1
+cachorros = 5
+|matematica - cavalos| = 1
+verde = historia
+aline = portugues
+matematica + 1 = hamsters
+vermelha + 1 = biologia
+azul = biologia
+aline > recife
+aline < verde
+beatriz = 3
+patricia = 1

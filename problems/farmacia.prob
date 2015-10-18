@@ -1,0 +1,31 @@
+camiseta: amarela, azul, branca, verde, vermelha
+nome: alesandra, gabriela, fernanda, paula, thais
+produto: desodorante, fralda, hidratante, remedio, xampu
+signo: capricornio, escorpiao, aquario, peixes, touro
+idade: '24a', '25a', '26a', '27a', '28a'
+cabelo: chanel, curto, desfiado, franja, cavalo
+
+thais - 1 = '25a'
+paula = 1
+|branca - franja| = 1
+vermelha = chanel
+cavalo - 1 = franja
+aquario + 1 = '26a'
+'24a' > '27a'
+'24a' < '25a'
+'25a' = desodorante
+'28a' + 1 = capricornio
+|capricornio - peixes| = 1
+|peixes - desodorante| = 1
+escorpiao = 5
+azul < hidratante
+amarela < remedio
+remedio = 3
+desodorante > amarela
+amarela > xampu
+amarela < gabriela
+alesandra = '25a'
+|capricornio - gabriela| = 1
+capricornio + 1 = cavalo
+desfiado - 1 = azul
+chanel = 5

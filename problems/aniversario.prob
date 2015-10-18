@@ -1,0 +1,30 @@
+vestido: amarelo, azul, branco, verde, vermelho
+nome: andrea, barbara, cristiane, monica, rafaela
+presente: bolsa, dvd, livro, sandalia, vestido
+idade: '13a', '14a', '15a', '16a', '17a'
+suco: abacaxi, laranja, limao, maracuja, morango
+animal: cachorros, cavalos, gatos, golfinhos, passaros
+
+golfinhos = 1 or golfinhos = 5
+maracuja = cachorros
+|'13a' - gatos| = 1
+'14a' = cavalos
+abacaxi = 5
+limao = gatos
+|cachorros - abacaxi| = 1
+rafaela - 1 = morango
+|azul - gatos| = 1
+'16a' = 1 or '16a' = 5
+azul < '17a'
+|'15a' - limao| = 1
+'17a' + 1 = '13a'
+|cavalos - rafaela| = 1
+vestido = 5
+branco = livro
+dvd - 1 = branco
+|barbara - sandalia| = 1
+andrea = 1 or andrea = 5
+monica = 3
+|amarelo - gatos| = 1
+cristiane - 1 = monica
+vermelho < andrea

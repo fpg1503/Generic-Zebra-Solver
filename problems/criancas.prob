@@ -1,0 +1,33 @@
+papel: amarelo, azul, branco, verde, vermelho
+nome: caio, danilo, josue, flavio, matias
+idade: '6a', '7a', '8a', '9a', '10a'
+brinquedo: bola, carrinho, domino, frisbee, ioio
+profissao: bombeiro, dentista, policial, medico, veterinario
+suco: abacaxi, laranja, maca, maracuja, uva
+
+veterinario + 1 = branco
+'7a' > caio
+'7a' < '6a'
+frisbee = 5
+verde < veterinario
+azul - 1 = laranja
+'8a' - 1 = ioio
+azul > '10a'
+azul < veterinario
+maca = 2
+policial < bombeiro
+maracuja = 1 or maracuja = 5
+|'7a' - maca| = 1
+maracuja - 1 = uva
+flavio > azul
+dentista = 5
+bola > domino
+bola < ioio
+'9a' = 2
+'6a' - 1 = veterinario
+abacaxi = 3
+josue + 1 = danilo
+bombeiro - 1 = carrinho
+vermelho < amarelo
+matias = 4
+danilo - 1 = domino

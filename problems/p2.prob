@@ -1,0 +1,11 @@
+cor: azul, branca, preta
+nacionalidade: alemao, brasileiro, espanhol
+animal: borboleta, cachorro, cavalo
+esporte: futebol, tenis, sinuca
+
+brasileiro = 1 or brasileiro = 3
+cachorro = futebol
+tenis + 2 = preta
+cavalo = borboleta - 1
+cachorro = branca + 1
+espanhol = 3

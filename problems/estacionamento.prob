@@ -1,0 +1,29 @@
+dono: alexandre, felipe, gilmar, guilherme, rogerio
+cor: amarela, azul, branca, verde, vermelha
+montadora: alema, chinesa, francesa, italiana, japonesa
+placa: aaa1111, bbb2222, ccc3333, ddd4444, ee5555
+ano: '2007a', '2008a', '2009a', '2010a', '2011a'
+tipo: crossover, hatch, pickup, sedan, suv
+
+'2009a' = pickup
+alexandre = crossover
+suv = 2
+|sedan - pickup| = 1
+pickup = 5
+'2010a' = 3
+|'2008a' - azul| = 1
+ccc3333 = '2007a'
+sedan = ee5555
+|ddd4444 - guilherme| = 1
+alema > felipe
+francesa = 4
+branca - 1 = japonesa
+italiana + 1 = crossover
+crossover = amarela
+chinesa < branca
+vermelha = 2
+rogerio = 1 or rogerio = 5
+italiana = '2007a'
+gilmar - 1 = branca
+alexandre > ddd4444
+alexandre < aaa1111

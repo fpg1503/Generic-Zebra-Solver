@@ -1,0 +1,33 @@
+camiseta: amarela, azul, verde, vermelha, branca
+nome: cecilia, isabela, marcia, paola, vitoria
+comida: frango, macarrao, pizza, peixe, sopa
+bebida: agua, cafe, cha, suco, vinho
+onibus: a, b, c, d, e
+lugar: cinema, livraria, museu, parque, teatro
+
+verde > marcia
+verde < frango
+cha < c
+cecilia > a
+cecilia < paola
+cinema = 4
+d > branca
+vinho = 1 or vinho = 5
+livraria > sopa
+livraria < museu
+amarela = 1
+isabela + 1 = suco
+b > isabela
+b < e
+macarrao = 1 or macarrao = 5
+|cafe - parque| = 1
+pizza > livraria
+pizza < frango
+|teatro - peixe| = 1
+vermelha + 1 = frango
+museu > sopa
+museu < branca
+azul = 1 or azul = 5
+suco = 3
+suco > sopa
+suco < cecilia

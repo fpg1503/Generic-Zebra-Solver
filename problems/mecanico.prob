@@ -1,0 +1,32 @@
+cor: amarela, azul, branca, verde, vermelha
+montadora: alema, chinesa, francesa, italiana, japonesa
+dono: adailton, francisco, george, nilton, marcos
+tipo: crossover, hatch, pickup, sedan, suv
+problema: bateria, cambio, embreagem, freio, motor
+ano: '2007a', '2008a', '2009a', '2010a', '2011a'
+
+'2008a' = 1 or '2008a' = 5
+'2010a' > hatch
+'2010a' < '2011a'
+|japonesa - '2009a'| = 1
+|branca - '2008a'| = 1
+sedan = freio
+cambio - 1 = amarela
+amarela < bateria
+embreagem = 1 or embreagem = 5
+francisco = freio
+|pickup - francesa| = 1
+suv = 1 or suv = 5
+|sedan - crossover| = 1
+|suv - francesa| = 1
+crossover = 5
+|hatch - nilton| = 1
+george = italiana
+marcos = amarela
+nilton + 1 = sedan
+japonesa + 1 = francisco
+francisco = chinesa
+amarela > embreagem
+amarela < italiana
+azul = 3
+vermelha = 1

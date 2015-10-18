@@ -1,0 +1,31 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: andre, bruno, luiz, rafael, tiago
+universidade: unesp, unicamp, unifesp, ufscar, usp
+curso: computacao, direito, economia, odontologia, medicina
+idade: '17a', '18a', '19a', '20a', '21a'
+bairro: bela_vista, bom_retiro, consolacao, higienopolis, liberdade
+
+'21a' = liberdade
+|bom_retiro - bela_vista| = 1
+bela_vista = unifesp
+consolacao = 5
+'17a' = direito
+|'19a' - economia| = 1
+unicamp + 1 = '18a'
+|liberdade - '17a'| = 1
+medicina > bruno
+medicina < branca
+computacao = '18a'
+'17a' = ufscar
+bruno = bom_retiro
+higienopolis + 1 = unesp
+unicamp = 1 or unicamp = 5
+branca < rafael
+luiz = branca
+vermelha > higienopolis
+vermelha < usp
+andre = 1 or andre = 5
+verde > unicamp
+verde < economia
+vermelha = 2
+amarela = odontologia

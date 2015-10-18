@@ -1,0 +1,35 @@
+gravata: amarela, azul, branca, verde, vermelha
+cargo: deputado, governador, ministro, prefeito, vereador
+estado: goias, maranhao, para, parana, sao_paulo
+acusacao: desvio, extorsao, nepotismo, propina, superfaturamento
+fortuna: '30_m', '35_m', '40_m', '45_m', '50_m'
+paraiso: chipre, ilhas_cayman, suica, tonga, uruguai
+
+chipre = 4
+ilhas_cayman > branca
+ilhas_cayman < chipre
+ilhas_cayman = 3
+branca + 1 = tonga
+|chipre - uruguai| = 1
+goias = '50_m'
+'45_m' > deputado
+'45_m' < '30_m'
+'40_m' - 1 = suica
+nepotismo = 1 or nepotismo = 5
+propina = 4
+extorsao > deputado
+extorsao < desvio
+nepotismo = 5
+goias > suica
+goias < '30_m'
+parana = 3
+maranhao > sao_paulo
+maranhao < azul
+prefeito > superfaturamento
+prefeito < governador
+vereador > sao_paulo
+vereador < prefeito
+ministro = tonga
+azul - 1 = verde
+verde < vermelha
+verde = ilhas_cayman

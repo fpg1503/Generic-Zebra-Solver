@@ -1,0 +1,31 @@
+camiseta: amarelo, azul, branco, verde, vermelha
+nome: edgar, lucio, moacir, paulo, tiago
+idade: '25anos', '28anos', '34anos', '39anos', '41anos'
+numero: '455i', '612i', '708i', '899i', '963i'
+estado: bahia, minas_gerais, parana, rio_de_janeiro, sao_paulo
+hobby: cantar, dancar, desenhar, pintar, ler
+
+amarelo > bahia
+amarelo < lucio
+pintar = 3
+'28anos' = 1 or '28anos' = 5
+lucio + 1 = '455i'
+'899i' = 3
+sao_paulo = 5
+cantar - 1 = '34anos'
+moacir = verde
+amarelo = 2
+'41anos' - 1 = '899i'
+|rio_de_janeiro - '455i'| = 1
+tiago = pintar
+amarelo > edgar
+amarelo < '28anos'
+|pintar - '963i'| = 1
+vermelha < '612i'
+ler = 1
+vermelha = '39anos'
+'455i' = 5
+minas_gerais = 3
+dancar > pintar
+dancar < desenhar
+branco = 4

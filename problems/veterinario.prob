@@ -1,0 +1,30 @@
+camiseta: amarela, azul, branca, verde, vermelha
+dono: bruno, caio, rafael, sidney, victor
+profissao: analista, designer, joalheiro, policial, sociologo
+companhia: amigo, esposa, filho, irma, mae
+animal: cachorro, furao, gato, iguana, mini_porco
+idade: '1a', '2a', '3a', '4a', '5a'
+
+'2a' = 1
+|irma - vermelha| = 1
+policial > azul
+|amigo - irma| = 1
+|victor - mae| = 1
+sidney = 1 or sidney = 5
+mini_porco - 1 = '5a'
+azul = joalheiro
+|sociologo - '1a'| = 1
+rafael = 5
+cachorro = '4a'
+filho = 1 or filho = 5
+|sociologo - filho| = 1
+caio = gato
+azul < '5a'
+|amarela - mae| = 1
+'4a' = 3
+iguana = '3a'
+branca + 1 = victor
+irma = 3
+designer = iguana
+|joalheiro - sociologo| = 1
+mae = '5a'

@@ -1,0 +1,30 @@
+bracelete: amarelo, azul, branco, verde, vermelho
+nome: cristiano, evandro, julio, paulo, willian
+mae: ana, isadora, katia, martina, tatiane
+hora: '9h35m', '9h50m', '10h05m', '10h40m', '11h10m'
+time: corinthians, cruzeiro, flamengo, gremio, sport
+sangue: amenos, amais, abmais, bmais, omenos
+
+abmais = 1 or abmais = 5
+azul = 4
+evandro - 1 = '10h05m'
+omenos = gremio
+isadora = 3
+amenos = 1
+flamengo = 1 or flamengo = 5
+|martina - paulo| = 1
+cristiano = sport
+verde = amais
+omenos = 4
+|cruzeiro - ana| = 1
+amais = 3
+'10h05m' = 1 or '10h05m' = 5
+amarelo = 2
+sport = 3
+tatiane = flamengo
+azul < '9h50m'
+|'10h40m' - verde| = 1
+|corinthians - '9h35m'| = 1
+julio = '11h10m'
+martina + 1 = flamengo
+|branco - '10h40m'| = 1

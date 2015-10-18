@@ -1,0 +1,31 @@
+caderno: amarelo, azul, branco, verde, vermelho
+nome: alex, bruno, diego, gabriel, henrique
+pais: australia, canada, estados_unidos, inglaterra, nova_zelandia
+idioma: alemao, espanhol, frances, italiano, mandarim
+idade: '19a', '20a', '21a', '22a', '23a'
+curso: biologia, direito, engenharia_eletrica, historia, quimica
+
+diego = direito
+engenharia_eletrica = 3
+biologia = 1 or biologia = 5
+historia + 1 = italiano
+|'23a' - '20a'| = 1
+canada + 1 = '20a'
+henrique = '23a'
+|verde - '19a'| = 1
+amarelo > '21a'
+amarelo < verde
+alemao = 4
+frances > bruno
+frances < diego
+mandarim = 1
+verde < inglaterra
+nova_zelandia = 4
+australia = 1 or australia = 5
+historia = mandarim
+henrique > '21a'
+henrique < alex
+|bruno - australia| = 1
+'23a' = vermelho
+gabriel = historia
+branco > azul

@@ -1,0 +1,32 @@
+guardasol: amarelo, azul, branco, verde, vermelho
+familia: carvalho, costa, freitas, nascimento, ribeiro
+protetor: fps30, fps35, fps40, fps45, fps50
+suco: laranja, limao, maracuja, morango, uva
+sanduiche: atum, frango, presunto, queijo, salame
+esporte: futebol, futevolei, frescobol, surfe, volei
+
+verde < branco
+costa = fps45
+|presunto - frango| = 1
+freitas = fps50
+queijo > nascimento
+queijo < azul
+frescobol > amarelo
+laranja = 1
+futevolei = fps40
+amarelo > fps30
+amarelo < atum
+|futebol - azul| = 1
+costa = 3
+ribeiro > branco
+frango = fps50
+azul > surfe
+azul < futebol
+|limao - vermelho| = 1
+amarelo < futebol
+futebol > fps30
+futebol < futevolei
+morango = 5
+presunto = maracuja
+vermelho > verde
+surfe = 2

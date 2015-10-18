@@ -1,0 +1,29 @@
+camisa: amarela, azul, branca, verde, vermelha
+nacionalidade: alemao, croata, espanhol, frances, italiano
+bebida: agua, cafe, cha, cerveja, leite
+dias: '10d', '15d', '20d', '25d', '30d'
+idade: '28a', '31a', '36a', '45a', '57a'
+companhia: amigo, filho, irma, esposa, namorada
+
+'15d' = 1
+verde > agua
+verde < croata
+alemao = filho
+espanhol = '57a'
+'45a' - 1 = '31a'
+alemao + 1 = vermelha
+'36a' + 1 = leite
+amigo = 3
+|azul - '10d'| = 1
+italiano = 3
+|alemao - '20d'| = 1
+'28a' - 1 = '25d'
+verde > espanhol
+verde < branca
+cha + 1 = amigo
+namorada = 5
+|esposa - '20d'| = 1
+cafe = 5
+esposa + 1 = leite
+|amarela - vermelha| = 1
+'31a' = amigo

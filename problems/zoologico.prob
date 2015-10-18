@@ -1,0 +1,32 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: ana, jessica, joana, pati, renata
+suco: abacaxi, laranja, limao, maracuja, morango
+lanche: banana, chocolate, maca, salgadinho, sanduiche
+animal: arara, girafa, elefante, macaco, leao
+materia: biologia, geografia, historia, portugues, matematica
+
+biologia = 4
+amarela < portugues
+historia > joana
+historia < geografia
+pati + 1 = girafa
+|arara - leao| = 1
+vermelha < leao
+macaco = branca
+maca = 4
+geografia = salgadinho
+chocolate = 2
+sanduiche = portugues
+morango = 1 or morango = 5
+limao > elefante
+limao < maracuja
+amarela = limao
+historia = laranja
+abacaxi = 1 or abacaxi = 5
+morango - 1 = maracuja
+renata > banana
+renata < ana
+jessica = 2
+pati = limao
+|geografia - azul| = 1
+vermelha - 1 = verde

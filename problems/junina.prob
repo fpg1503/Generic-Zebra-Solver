@@ -1,0 +1,27 @@
+vestido: amarelo, azul, branco, verde, vermelho
+mae: eduarda, fatima, luciana, maria, valentina
+filho: francisco, jose, luiz, roberto, tales
+idade: '7anos', '8anos', '9anos', '10anos', '11anos'
+comida: arroz_doce, cuzcuz, pamonha, pe_de_moleque, suspiro
+estado: alagoas, bahia, ceara, paraiba, sergipe
+
+suspiro = alagoas
+'11anos' > azul
+luiz = 3
+|luciana - tales| = 1
+verde = bahia - 1
+cuzcuz = 2
+luciana = '10anos'
+roberto = suspiro + 1
+valentina = eduarda - 1
+|azul - '9anos'| = 1
+arroz_doce = alagoas - 1
+'8anos' > verde
+francisco = luiz - 1
+amarelo = '11anos' - 1
+|fatima - alagoas| = 1
+ceara = sergipe - 1
+roberto = pamonha
+|vermelho - sergipe| = 1
+valentina = 3
+jose > verde

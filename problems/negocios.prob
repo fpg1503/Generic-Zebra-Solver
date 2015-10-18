@@ -1,0 +1,29 @@
+gravata: amarela, azul, branca, verde, vermelha
+nacionalidade: alemao, japones, ingles, sueco, italiano
+idade: '47a', '50a', '51a', '53a', '54a'
+suco: abacaxi, laranja, limao, maracuja, morango
+comida: frango, massa, peixe, salada, sopa
+carro: crossover, hatch, pickup, sedan, suv
+
+suv = vermelha
+morango = sedan
+crossover = 5
+|'51a' - frango| = 1
+sopa = 1 or sopa = 5
+|azul - massa| = 1
+'47a' - 1 = salada
+peixe = branca
+abacaxi = 4
+'51a' = laranja
+'50a' = maracuja
+hatch = 1
+limao = 1
+italiano = 1 or italiano = 5
+alemao = 3
+ingles > amarela
+sueco = 1
+branca = 1 or branca = 5
+azul = 3
+verde = laranja
+branca < verde
+pickup + 1 = '54a'

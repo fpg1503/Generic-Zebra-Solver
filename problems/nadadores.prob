@@ -1,0 +1,24 @@
+touca: amarela, azul, branca, verde
+pais: brasil, china, eua, russia
+especialidade: borboleta, costas, crawl, peito
+medalhas: '2medalhas', '3medalhas', '5medalhas', '8medalhas'
+suco: abacaxi, laranja, limao, maracuja
+idade: '19anos', '20anos', '21anos', '24anos'
+
+'24anos' = '8medalhas'
+azul < '19anos'
+'20anos' = 1 or '20anos' = 4
+limao + 1 = crawl
+maracuja > azul
+laranja = 2
+'24anos' = 3
+'3medalhas' = 2
+'5medalhas' + 1 = laranja
+peito = 2
+costas - 1 = '3medalhas'
+brasil = '8medalhas'
+china + 1 = brasil
+eua = '5medalhas'
+branca = 4
+|borboleta - azul| = 1
+eua = verde

@@ -1,0 +1,31 @@
+mochila: amarela, azul, branca, verde, vermelha
+nome: igor, pedro, ricardo, vinicius, wesley
+instrumento: baixo, bateria, guitarra, teclado, violao
+estilo: blues, jazz, mpb, pop, rock
+professor: aurelio, douglas, helio, marcio, sergio
+sala: '1s', '2s', '3s', '4s', '5s'
+
+branca = helio
+pop - 1 = '3s'
+azul > '3s'
+azul < vermelha
+|ricardo - '2s'| = 1
+igor = baixo
+|violao - blues| = 1
+'5s' = 2
+guitarra = rock
+bateria = 1 or bateria = 5
+sergio > violao
+sergio < douglas
+'4s' = 3
+blues + 1 = '2s'
+azul = marcio
+'1s' + 1 = '2s'
+vinicius = 1 or vinicius = 5
+jazz = 3
+wesley = rock
+teclado = '1s'
+azul > aurelio
+azul < pedro
+guitarra = 5
+amarela = teclado

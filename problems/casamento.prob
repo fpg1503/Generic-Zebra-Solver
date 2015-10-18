@@ -1,0 +1,31 @@
+gravata: amarela, azul, branca, verde, vermelha
+noivo: adriano, cassio, edson, thomas, wagner
+noiva: caroline, karen, laura, mayara, viviane
+lua_de_mel: belo_horizonte, campo_grande, curitiba, florianopolis, recife
+noivado: '1a', '2a', '3a', '4a', '5a'
+conheceram: faculdade, festa, igreja, praia, trabalho
+
+|'5a' - '2a'| = 1
+praia = recife
+azul < branca
+caroline = 1 or caroline = 5
+igreja = 3
+edson = festa
+curitiba > cassio
+curitiba < edson
+|verde - '1a'| = 1
+thomas = praia
+mayara > verde
+faculdade = 1 or faculdade = 5
+amarela > '3a'
+amarela < verde
+vermelha = '5a'
+wagner = '5a'
+recife = 1
+karen + 1 = '2a'
+florianopolis - 1 = praia
+belo_horizonte = 4
+|caroline - cassio| = 1
+wagner > '3a'
+wagner < adriano
+viviane = 4

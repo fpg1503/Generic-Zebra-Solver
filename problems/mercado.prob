@@ -1,0 +1,28 @@
+camisa: amarela, azul, branca, verde, vermelha
+nome: ana, claudia, fernanda, helen, larissa
+experimentou: granadilho, jamborosa, moranga, nespera, pitaya
+comprou: carnes, especiarias, peixes, queijos, vinhos
+gastou: '80r', '100r', '150r', '180r', '210r'
+veio: filho, irma, mae, marido, namorado
+
+helen = namorado
+especiarias + 1 = irma
+marido = 2
+filho = 1 or filho = 5
+verde + 1 = '100r'
+'180r' = branca
+'150r' = 4
+'80r' = 2
+ana = queijos
+peixes > branca
+mae = verde
+carnes = 1
+verde < nespera
+vinhos = pitaya
+moranga = 2
+granadilho = queijos
+marido + 1 = pitaya
+pitaya = fernanda
+claudia + 1 = moranga
+azul = 2
+amarela = 1

@@ -1,0 +1,30 @@
+cor: amarela, azul, branca, verde, vermelha
+economia: '5p', '10p', '15p', '20p', '25p'
+titular: everson, geraldo, joao, orlando, raul
+moradores: '2m', '3m', '4m', '5m', '6m'
+tempo: '2t', '5t', '8t', '10t', '12t'
+animal: cachorro, passaro, gato, peixe, tartaruga
+
+|'6m' - '20p'| = 1
+|everson - peixe| = 1
+'4m' > '2t'
+everson = 3
+'20p' + 1 = '15p'
+vermelha > verde
+gato > branca
+gato < cachorro
+'12t' + 1 = '4m'
+'2m' = 5
+azul < '25p'
+orlando > '2t'
+orlando < geraldo
+|'5t' - '8t'| = 1
+verde < tartaruga
+'6m' = 3
+joao + 1 = everson
+gato - 1 = '10t'
+'10p' + 1 = '5p'
+'5t' > vermelha
+'5m' > '10t'
+'5m' < verde
+tartaruga > everson

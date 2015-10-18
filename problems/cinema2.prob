@@ -1,0 +1,25 @@
+nome: bruna, carol, fernanda, marcela, sabrina
+namorado: alex, daniel, henrique, luis, yuri
+idade: '21_anos', '22_anos', '23_anos', '24_anos', '25_anos'
+cor: amarelo, azul, branco, verde, vermelho
+filme: acao, comedia, drama, ficcao, romance
+
+|vermelho - comedia| = 1
+'24_anos' = ficcao
+acao = 2
+drama = 1
+azul = 5
+'23_anos' = romance
+|verde - henrique| = 1
+'22_anos' = amarelo
+alex = romance
+'23_anos' - 1 = amarelo
+'21_anos' = daniel
+ficcao = 5
+'23_anos' = 3
+henrique = 5
+|luis - acao| = 1
+|sabrina - '24_anos'| = 1
+|carol - '22_anos'| = 1
+fernanda = henrique
+bruna = 1 or bruna = 5

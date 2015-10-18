@@ -1,0 +1,30 @@
+toalha: amarela, azul, branca, verde, vermelha
+mulher: agata, beatriz, soraia, talita, vanessa
+homem: abner, gilberto, lucas, robson, saulo
+suco: abacaxi, limao, maca, maracuja, uva
+lanche: biscoitos, chocolates, salgadinhos, sanduiches, tortas
+aniversario: '12do01', '25do04', '04do07', '30do09', '18do11'
+
+beatriz = amarela
+uva = 4
+saulo = 1 or saulo = 5
+talita = '04do07'
+verde  = 2
+lucas = chocolates
+|agata - verde| = 1
+maca = '18do11'
+vanessa = 1 or vanessa = 5
+talita = chocolates
+gilberto = '12do01'
+biscoitos = 5
+branca = 1
+abacaxi = chocolates
+|talita - salgadinhos| = 1
+vermelha = maracuja
+azul = 1 or azul = 5
+abner = maracuja
+tortas = 4
+soraia = 1
+gilberto = sanduiches
+|saulo - '25do04'| = 1
+gilberto = 1

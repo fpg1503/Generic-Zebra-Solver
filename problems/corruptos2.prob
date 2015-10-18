@@ -1,0 +1,30 @@
+gravata: amarela, azul, branca, verde, vermelha
+nome: alberto, fernando, luiz, renato, ricardo
+setor: educacao, energia, saude, seguranca, transporte
+valor: '100m', '200m', '300m', '400m', '500m'
+estado: alagoas, matogrosso, rio, catarina, tocantins
+paraiso: bahamas, bolivia, bermudas, luxemburgo, monaco
+
+azul < '500m'
+|alberto - tocantins| = 1
+'300m' - 1 = monaco
+'100m' = 1 or '100m' = 5
+alagoas + 1 = '100m'
+educacao = '100m'
+amarela = 3
+fernando + 1 = bolivia
+matogrosso = monaco
+azul > saude
+azul < fernando
+|luiz - luxemburgo| = 1
+renato - 1 = luxemburgo
+branca + 1 = rio
+transporte = 4
+verde = bahamas
+bahamas = 1
+azul > catarina
+azul < rio
+'200m' = 2
+luxemburgo + 1 = '100m'
+luiz = energia
+monaco = 3

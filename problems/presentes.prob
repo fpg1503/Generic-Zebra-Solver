@@ -1,0 +1,31 @@
+cor: amarela, azul, branca, verde, vermelha
+nome: alex, cristian, eduardo, mario, pedro
+idade: '6_anos', '7_anos', '8_anos', '9_anos', '10_anos'
+presente: bicicleta, bola, computador, skate, video_game
+suco: abacaxi, laranja, limao, maracuja, morango
+profissao: astronauta, bombeiro, medico, policial, professor
+
+bombeiro = 1 or bombeiro = 5
+maracuja = medico
+professor = 3
+policial = 1 or policial = 5
+bombeiro = 5
+laranja = 1 or laranja = 5
+limao + 1 = morango
+medico - 1 = abacaxi
+cristian = limao
+|'8_anos' - computador| = 1
+skate + 1 = alex
+branca = video_game
+bola = 1
+|bicicleta - video_game| = 1
+'6_anos' = 5
+'10_anos' > '7_anos'
+'10_anos' < '9_anos'
+'9_anos' = professor
+pedro = 3
+|pedro + 1| = eduardo
+eduardo = verde
+branca + 1 = maracuja
+azul + 1 = video_game
+amarela = 1

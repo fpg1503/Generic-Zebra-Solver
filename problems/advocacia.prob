@@ -1,0 +1,33 @@
+gravata: amarela, azul, branca, verde, vermelha
+area: civil, comercial, consumidor, imobiliaria, trabalhista
+nome: dr_alberto, dr_carlos, dr_luis, dr_otavio, dr_ulysses
+bebida: caipirinha, cosmopolitan, margarita, martini, mojito
+idade: '30_anos', '34_anos', '37_anos', '40_anos', '44_anos'
+carro: crossover, hatch, pickup, sedan, suv
+
+suv > crossover
+suv < sedan
+dr_luis = suv
+amarela < hatch
+crossover = 1
+'37_anos' = 4
+'34_anos' > dr_otavio
+'34_anos' < civil
+'30_anos' = 2
+mojito - 1 = '40_anos'
+'34_anos' + 1 = cosmopolitan
+caipirinha = 5
+martini = 3
+suv = 4
+dr_carlos = 1 or dr_carlos = 5
+dr_ulysses > amarela
+amarela > dr_otavio
+amarela < '34_anos'
+civil = 4
+|trabalhista - comercial| = 1
+trabalhista > crossover
+trabalhista < comercial
+imobiliaria + 1 = trabalhista
+branca - 1 = dr_luis
+vermelha = 4
+azul = 3

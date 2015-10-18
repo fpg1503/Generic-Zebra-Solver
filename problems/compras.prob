@@ -1,0 +1,25 @@
+blusa: amarela, azul, branca, verde, vermelha
+nome: aline, carol, fernanda, juliana, natalia
+esqueceu: amaciante, frutas, leite, pao, presunto
+pagamento: cheque, credito, debito, dinheiro, vale
+veio_com: filho, irma, mae, marido, namorado
+
+|pao + 1| = irma
+azul < filho
+marido = vale
+namorado = 1
+credito = 4
+dinheiro = 5
+|marido + 1| = pao
+cheque = 1
+credito = presunto
+leite = dinheiro
+amaciante = 1 or amaciante = 5
+fernanda = branca
+verde < azul
+aline = marido
+carol - 1 = marido
+natalia = 5
+|juliana + 1| = amarela
+branca = presunto
+vermelha = filho

@@ -1,0 +1,33 @@
+cor: amarela, azul, branca, verde, vermelha
+nome: gabriel, leandro, mauricio, renato, vinicius
+idade: '19a', '22a', '27a', '29a', '34a'
+pizza: brigadeiro, calabresa, frango, portuguesa, '4queijos'
+pedacos: '5p', '6p', '7p', '8p', '9p'
+carro: crossover, hatch, pickup, sedan, suv
+
+sedan = 1 or sedan = 5
+'19a' - 1 = '9p'
+suv + 1 = sedan
+pickup = 2
+crossover = 3
+azul - 1 = hatch
+'6p' = 5
+'9p' > verde
+calabresa + 1 = '5p'
+'7p' < '5p'
+'27a' - 1 = '4queijos'
+portuguesa = 5
+frango + 1 = leandro
+brigadeiro > frango
+brigadeiro < '4queijos'
+'22a' > gabriel
+'22a' < '19a'
+'29a' = 2
+vinicius = 4
+|pickup - '22a'| = 1
+azul > '34a'
+azul < '9p'
+mauricio > azul
+renato + 1 = leandro
+branca - 1 = '9p'
+vermelha < amarela

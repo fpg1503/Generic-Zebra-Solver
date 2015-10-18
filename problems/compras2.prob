@@ -1,0 +1,29 @@
+blusa: amarela, azul, branca, verde, vermelha
+nome: aline, carol, fernanda, juliana, natalia
+esqueceu: amaciante, frutas, leite, pao, presunto
+pagamento: cheque, credito, debito, dinheiro, vale
+foicom: filho, irma, mae, marido, namorado
+carro: crossover, hatch, pickup, sedan, suv
+
+amaciante + 1 = sedan
+crossover - 1 = debito
+namorado = pickup
+sedan + 1 = suv
+pao = mae
+|aline - filho| = 1
+marido = 1 or marido = 5
+cheque = 4
+dinheiro = 1 or dinheiro = 5
+debito + 1 = vale
+juliana = mae
+presunto = debito
+|amarela - frutas| = 1
+pao = suv
+fernanda = filho
+carol - 1 = amaciante
+azul = 4
+verde < vermelha
+|frutas - presunto| = 1
+amarela > marido
+amarela < verde
+|dinheiro - sedan| = 1
