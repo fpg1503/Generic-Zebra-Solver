@@ -2,7 +2,7 @@
 :- use_module(library(clpfd)).
 
 neighbor(X, Y) :-
-    (X #= (Y - 1)) #\/ (X #= (Y + 1)).
+    abs(X-Y) #= 1.
 
 solve([British, Swedish, Danish, Norwegian, German]) :-
 
